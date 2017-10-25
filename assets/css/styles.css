@@ -1,0 +1,60 @@
+body {
+	background-color: #DDDDDD;
+	font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+	box-shadow: 10px 10px 5px grey;
+	font-style: bold;
+	font-size: 16px;
+}
+
+section {
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin-bottom:30px;
+	margin-left:30px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+legend {
+	font-size: 48px;
+	font-weight:  bold;
+}
+
+label {
+	font-size: 18px;
+}
+
+img {
+	width: 100%;
+}
+
+input.readonly {
+	background-color: #DDDDDD;
+}
+
+.card {
+	border: 1px inset #FFFACD;
+	padding: 10px;
+}
+
+.card-header {
+	border-bottom:1px solid #DDDDDD;
+	padding: 1px 10px 1px 0;
+	font-style: italic;
+	margin-bottom: 10px; 
+}
+
+.card-body {
+	padding-left: 10px;
+}
+
+.card-title {
+	font-weight:bold;
+	padding-left: 10px;
+}
+
+.card-text {
+	padding: 10px;
+}
