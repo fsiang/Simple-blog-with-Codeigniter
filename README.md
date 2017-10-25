@@ -25,40 +25,40 @@ Simple Blog example with codeigniter
 		|- Blog
 			|- application
 				|- cofig
-					|- config				-- 設定base_url、csrf_protection
-					|- autoload				-- 設定helper、library自動載入
-					|- database				-- 資料庫連線設定
+					|- config			-- 設定base_url、csrf_protection
+					|- autoload			-- 設定helper、library自動載入
+					|- database			-- 資料庫連線設定
 					|- form_validation		-- 表單驗證的相關設定
-					|- route				-- url路由相關設定
+					|- route			-- url路由相關設定
 				|- controllers			
-					|- Article			 	-- 主要為文章的新增、刪除...等請求處理
-					|- Album				-- 主要為照片的新增、刪除...等請求處理
-					|- Auth					-- 主要為登入、註冊、登出
+					|- Article			-- 主要為文章的新增、刪除...等請求處理
+					|- Album			-- 主要為照片的新增、刪除...等請求處理
+					|- Auth				-- 主要為登入、註冊、登出
 				|- models				
 					|- Article_model		-- 處理文章相關的資料處理
 					|- Album_model			-- 處理照片相關的資料處理
 					|- Users_model			-- 使用者相關的資料處理
 				|- views				
 					|-admin					** 以下檔案為後台的視圖
-						|- album			-- 照片首頁
+						|- album		-- 照片首頁
 						|- addAlbum 		-- 照片新增頁面	
 						|- editAlbum		-- 照片資訊編輯頁面
-						|- article 			-- 文章首頁
+						|- article 		-- 文章首頁
 						|- addArticle		-- 文章新增頁面	
 						|- editArticle		-- 文章資料編輯頁面
 					|-template				
-						|- admin			** 後台的樣板
+						|- admin		** 後台的樣板
 							|- header 				
 							|- nav
 							|- footer			
-						|- header 			** 樣板
+						|- header 		** 樣板
 						|- nav
 						|- footer
 					|- register 			-- 註冊頁面
-					|- login  				-- 登入頁面
-					|- album				-- 照片首頁
-					|- article 				-- 文章首頁
-					|- showAlbum 		    -- 單張照片頁面
+					|- login  			-- 登入頁面
+					|- album			-- 照片首頁
+					|- article 			-- 文章首頁
+					|- showAlbum 		    	-- 單張照片頁面
 					|- showArticle 			-- 單篇文章頁面
 			|- assets
 				|- js
@@ -66,7 +66,7 @@ Simple Blog example with codeigniter
 				|- css
 					|- bootstrap.min.css  	
 					|- styles.css 			-- 自訂樣式 				
-			|- uploads 						-- 照片上傳的資料夾
+			|- uploads 					-- 照片上傳的資料夾
 
 * * *
 
@@ -97,14 +97,14 @@ Simple Blog example with codeigniter
 	- title 		varchar(255)
 	- intro			text 
 	- path			varchar(255) 
-	- created_at  	timestamp 
+	- created_at  		timestamp 
 
 #### articles
 	- id  			int(11) 
 	- user_id 		int(11)  
 	- title 		varchar(255)
 	- content 		text
-	- created_at 	timestamp
+	- created_at 		timestamp
  
 * * *
 
